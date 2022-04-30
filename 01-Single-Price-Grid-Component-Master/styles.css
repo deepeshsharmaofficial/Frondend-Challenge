@@ -1,0 +1,160 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Karla', sans-serif;
+    border-style: border-box;
+    overflow-x: hidden;
+}
+
+body {
+    background-color: hsl(204, 43%, 93%);
+}
+
+section {
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 0 30px;
+}
+
+.container {
+    background-color: white;
+    display: grid;
+    max-width: 600px;
+	grid-template-columns: 1fr 1fr;
+	margin: 0 auto;
+	border-radius: 8px;
+	overflow: hidden; /* for border-radius */
+    box-shadow: 0px 0px 12px 0px rgba(0, 0, 0, 0.241);
+}
+
+.item {
+    padding: 35px;
+}
+
+.item-1 {
+    grid-column-start: 1;
+    grid-column-end: 3;
+}
+
+.item-1 h2 {
+    color: hsl(179, 62%, 43%);
+    font-weight: 700;
+    font-size: 1.5rem;
+    margin-bottom: 20px;
+}
+
+.item-1 h3 {
+    color: hsl(71, 73%, 54%);
+    font-weight: 700;
+    font-size: 1.1rem;
+    margin-bottom: 15px;
+}
+
+.item-1 p {
+    color: hsl(218, 22%, 67%);
+    line-height: 1.5rem;
+    font-size: 1rem;
+}
+
+.item-2 {
+    background-color: hsl(179, 62%, 43%);
+}
+
+.item-2 h3{
+    color: white;
+    margin-bottom: 15px;
+    font-size: 1.1rem;
+}
+
+.item-2 p {
+    color: white;
+    margin-bottom: 15px;
+    font-size: 1rem;
+}
+
+.item-2 .price {
+    color: hsl(204, 43%, 93%); 
+    display: flex;
+    align-items: center; 
+}
+
+.item-2 span {
+    color: white;
+    font-size: 2rem;
+    font-weight: 700;
+    padding-right: 10px;  
+}
+
+.btn {
+    background-color:hsl(71, 73%, 54%) ;
+    width: 100%;
+    padding: 15px;
+    color: white;
+    font-weight: 700;
+    font-size: 1rem;
+    border-radius: 8px;
+    box-shadow: 0px 0px 12px 0px rgba(0, 0, 0, 0.241);
+    text-decoration: none;
+    border: none;
+    margin-top: 20px;
+}
+
+.btn:hover {
+    background-color: hsl(71, 73%, 49%);
+    box-shadow: 0px 0px 6px 0px rgba(0, 0, 0, 0.241);
+}
+
+.item-3 {
+    background-color: #4abebd;
+}
+
+.item-3 h3 {
+    color: white;
+    padding-bottom: 15px;
+    font-size: 1.1rem;
+}
+
+.item-3 p {
+    color: hsl(204, 43%, 93%);
+    line-height: 1.4rem;
+    font-size: 1rem;
+}
+
+
+@media only screen and (max-width: 700px) {
+
+    section {
+        padding: 80px 30px;
+    }
+
+    .container {
+        grid-template-columns: 100%;
+        max-width: 550px;
+    }
+
+    .container .item-2 {
+        grid-row: 2;
+    }
+
+    .container .item-3 {
+        grid-row: 3;
+    }    
+}
+
+/* Footer */
+
+.attribution { 
+    font-size: 0.9rem;
+    text-align: center;
+    padding: 0px 30px 25px 30px; 
+}
+
+.attribution a { 
+    /* color: hsl(228, 45%, 44%);  */
+    color: crimson;
+}
+
+
+
