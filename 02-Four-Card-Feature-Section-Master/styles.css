@@ -1,0 +1,80 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: 'Poppins', sans-serif;
+    font-size: 15px;
+}
+
+section {
+    background-color: blueviolet;
+    min-height: 100vh;
+    /* width: 100%; */
+    display: flex;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+}
+
+.main {
+    background-color: aquamarine;
+    /* height: 100vh; */
+    /* height: 400px; */
+}
+
+.head h1 {
+    padding-top: 50px;
+    font-weight: 200;
+    font-size: 2rem;
+}
+
+.head h2 {
+    font-weight: 600;
+    font-size: 2rem;
+}
+
+.head p {
+    font-size: 0.9rem;
+    padding: 20px 0 50px 0;
+}
+
+
+.container {
+    background-color: greenyellow;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+
+}
+
+.item {
+
+    background-color: yellow;
+    /* height: 300px; */
+    width: 300px;
+    padding: 20px;
+    margin: 15px;
+
+}
+
+.item h3 {
+    font-size: 1.1 rem;
+    font-weight: 600;
+    padding-top: 10px;
+}
+
+.item p {
+    font-size: 0.7rem;
+    font-weight: 400;
+    padding: 10px;
+}
+
+.item-team, .item-karma {
+    grid-column: 2;
+}
+
+.item-calculator {
+    grid-column: 3;
+    grid-row: 1;
+}
