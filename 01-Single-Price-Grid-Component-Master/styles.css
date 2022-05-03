@@ -8,6 +8,7 @@
 
 body {
     background-color: hsl(204, 43%, 93%);
+    font-size: 16px;
 }
 
 section {
@@ -122,9 +123,11 @@ section {
     font-size: 1rem;
 }
 
+.attribution p{
+    color: hsl(219, 10%, 47%);
+  }
 
 @media only screen and (max-width: 700px) {
-
     section {
         padding: 80px 30px;
     }
@@ -144,15 +147,12 @@ section {
 }
 
 .attribution { 
-    font-size: 0.9rem;
-    text-align: center;
-    padding: 0px 30px 25px 30px; 
+  font-size: 0.8rem;
+  text-align: center;
+  padding: 0px 30px 25px 30px; 
 }
 
-.attribution a { 
-    /* color: hsl(228, 45%, 44%);  */
-    color: crimson;
+.attribution a {  
+  color: crimson;
+  text-decoration: none;
 }
-
-
-

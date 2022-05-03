@@ -28,8 +28,8 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: [solution](https://github.com/deepeshsharmaofficial/Frontend-Mentor-Challenge/tree/main/01-Single-Price-Grid-Component-Master)
-- Live Site URL: [live site](https://frontend-mentor-challenge-deepesh.netlify.app/01-single-price-grid-component-master/)
+- Solution URL: [Solution](https://github.com/deepeshsharmaofficial/Frontend-Mentor-Challenge/tree/main/01-Single-Price-Grid-Component-Master)
+- Live Site URL: [Live Site](https://frontend-mentor-challenge-deepesh.netlify.app/01-single-price-grid-component-master/)
 
 ## My process
 
