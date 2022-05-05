@@ -27,8 +27,8 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: [Solution](https://github.com/deepeshsharmaofficial/Frondend-Mentor-Challenge/tree/master/03-Huddle-Landing-Page-With-Single-Introductory-Section)
-- Live Site URL: [live Site](https://frontend-mentor-challenge-deepesh.netlify.app/03-huddle-landing-page-with-single-introductory-section/)
+- Solution URL: [Solution](https://github.com/deepeshsharmaofficial/Frondend-Mentor-Challenge/tree/master/03-Huddle-Landing-Page)
+- Live Site URL: [live Site](https://frontend-mentor-challenge-deepesh.netlify.app/03-huddle-landing-page/)
 
 ## My process
 
