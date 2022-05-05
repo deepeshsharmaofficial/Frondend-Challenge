@@ -97,6 +97,19 @@ body {
     border: 1px solid hsl(300, 69%, 71%);
 }
 
+.attribution { 
+    font-size: 0.8rem;
+    text-align: center;
+    padding: 0px 30px 25px 30px;
+    font-family: 'Poppins', sans-serif;
+    color: hsl(300, 69%, 71%);
+  }
+  
+  .attribution a {  
+    color: white;
+    text-decoration: none;
+  }
+
 @media screen and (min-width: 1235px) {
     .body {
         background-color: hsl(257, 40%, 49%);
